@@ -9,11 +9,16 @@ a sample submission file in the correct format (columns key and fare_amount). Th
 
 # Features-
 1.pickup_datetime - timestamp value indicating when the taxi ride started.
+
 2.pickup_longitude - float for longitude coordinate of where the taxi ride started.
+
 3.pickup_latitude - float for latitude coordinate of where the taxi ride started.
+
 4.dropoff_longitude - float for longitude coordinate of where the taxi ride ended.
+
 5.dropoff_latitude - float for latitude coordinate of where the taxi ride ended.
-6.passenger_count - integer indicating the number of passengers in the taxi ride.
+
+6.passenger_count- integer indicating the number of passengers in the taxi ride.
 
 # Target-
 fare_amount - float dollar amount of the cost of the taxi ride. This value is only in the training set; this is what you are predicting in the test set and it is required in your submission CSV.
